@@ -1,5 +1,19 @@
 # CSV Combiner
 
+How to run:
+This script was written using Python
+In order to run the script the user should run the following in command line in the working directory:
+```
+$ python csvcombiner.py <filename>... 
+```
+where <filename> is a list of paths to a csv file the user wants to combine.
+
+An example to run this script would be
+
+```
+python csvcombiner.py .\fixtures\clothing.csv .\fixtures\accessories.csv
+```
+
 Write a command line program that takes several CSV files as arguments. Each CSV
 file (found in the `fixtures` directory of this repo) will have the same
 columns. Your script should output a new CSV file to `stdout` that contains the
