@@ -7,7 +7,7 @@ In order to run the script the user should run the following in command line in 
 ```
 $ python csvcombiner.py <filename>... 
 ```
-where <filename> is a list of paths to a csv file the user wants to combine.
+Where `<filename>` is a list of paths to a csv file the user wants to combine.
 
 An example to run this script would be
 
