@@ -1,7 +1,8 @@
 # CSV Combiner
 
 How to run:
-This script was written using Python
+This script was written using Python.
+
 In order to run the script the user should run the following in command line in the working directory:
 ```
 $ python csvcombiner.py <filename>... 
