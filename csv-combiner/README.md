@@ -16,6 +16,12 @@ An example to run this script would be
 python csvcombiner.py .\fixtures\clothing.csv .\fixtures\accessories.csv
 ```
 
+In order to run the unit tests use the following in command line:
+
+```
+python -m unittest csvcombiner.py
+```
+
 Write a command line program that takes several CSV files as arguments. Each CSV
 file (found in the `fixtures` directory of this repo) will have the same
 columns. Your script should output a new CSV file to `stdout` that contains the
